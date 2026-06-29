@@ -5,7 +5,6 @@ body, html {
     min-height: 100vh;
  padding: 0;
   margin: 0;
-
   background-repeat: no-repeat;
 
 }
@@ -16,16 +15,14 @@ body {
     justify-self: center;
     top: 200px;
     overflow-x: hidden;
-
-
     background-repeat: no-repeat;
 
 }
 
 
 body::before {
-    content: "";
-    filter: blur(7px);
+content: "";
+filter: blur(7px);
 z-index: -1;
 opacity: 1;
 overflow: hidden;
@@ -37,7 +34,7 @@ bottom: 0;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: 0px -70px;
-background-image: url(../images/MR.T.jpg);
+background-image: url(assets/images/MR.T.jpg);
 }
 
 #video-line {
