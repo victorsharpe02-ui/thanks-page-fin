@@ -1,22 +1,27 @@
-body, html {
+html {
 
   
-
-    min-height: 100vh;
- padding: 0;
-  margin: 0;
-  background-repeat: no-repeat;
+  min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;  /* Vertically centers all content */
+    justify-content: center; /* H
 
 }
 
-body {
-    position:relative;
-    justify-content: center;
-    justify-self: center;
-    top: 200px;
-    overflow-x: hidden;
-    background-repeat: no-repeat;
 
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+
+  
 }
 
 
