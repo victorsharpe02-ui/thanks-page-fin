@@ -55,8 +55,7 @@ background-image: radial-gradient( circle at top left, rgb(114, 0, 0) ,rgb(140, 
 #contact-header {
 font-size: 70px;
 position:absolute;
-display: flex;
-left: 70px;
+left: 700px;
 bottom: -100px;
 
 color: black;
@@ -133,6 +132,6 @@ min-width: 1200px;
     border: 1px solid white;
     background-color: white;
     border-width: 40px;
-    left: 180px;
+    left: 150px;
 
 }
