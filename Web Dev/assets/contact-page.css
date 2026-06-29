@@ -1,0 +1,146 @@
+body, html {
+
+  
+
+    min-height: 100vh;
+ padding: 0;
+  margin: 0;
+
+  background-repeat: no-repeat;
+
+}
+
+body {
+    position:relative;
+    justify-content: left;
+    justify-self: left;
+padding-left: 40px;
+    top: 200px;
+    overflow-x: hidden;
+
+
+    background-repeat: no-repeat;
+
+}
+
+
+body::before {
+    content: "";
+    filter: blur(5px);
+z-index: -1;
+opacity: 0.5;
+transform: scale(1.1);
+overflow: hidden;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-repeat: no-repeat;
+
+background-image: radial-gradient( circle at top left, rgb(114, 0, 0) ,rgb(140, 140, 0), rgb(0, 128, 0));
+}
+
+#support-form {
+    
+    position:absolute;
+    display: flex;
+    margin: 0 auto;
+   
+font-size:  30px;
+    top: 1400px;
+}
+
+#contact-details  {
+    position:absolute;
+    display: flex;
+    margin: 0 auto;
+
+    padding-bottom: 20px;
+    color: black;
+}
+
+#contact-header {
+font-size: 70px;
+position:absolute;
+
+left: 700px;
+bottom: -100px;
+
+color: black;
+white-space: nowrap;
+
+
+}
+
+.contact-info {
+    position:absolute;
+
+margin: 0 auto;
+left: 700px;
+font-size: 30px;
+
+padding-bottom: 20px;
+color: black;
+top: 200px;
+min-width: 500px;
+
+}
+
+
+
+
+#contacts {
+    top: 100px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+gap: 200px;
+}
+
+/* 3. Forces Area Code and Telephone rows to span all columns underneath */
+.full-width {
+    grid-column: 1 / -1;
+}
+
+/* 4. Keeps individual labels neatly stacked above their inputs */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+
+}
+
+/* Optional styling to match your look */
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    position:absolute;
+    display: flex;
+    margin: 0 auto;
+   
+
+    top: 1100px;
+}
+
+
+
+.disclosure {
+min-width: 1200px;
+    font-size: 20px;
+    color: black;
+    top: 1200px;
+    position:absolute;
+    border: 1px solid white;
+    background-color: white;
+    border-width: 40px;
+    left: -40px;
+
+}
