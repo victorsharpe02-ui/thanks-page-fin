@@ -128,7 +128,7 @@ min-width: 1200px;
     font-size: 20px;
     color: black;
     top: 1200px;
-    position: relative;
+    position: absolute;
     border: 1px solid white;
     background-color: white;
     border-width: 40px;
