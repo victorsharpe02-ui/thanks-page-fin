@@ -129,9 +129,9 @@ min-width: 1200px;
     color: black;
     top: 1200px;
     position:absolute;
-    border: 1px solid white;
+    border: 1px solid blue;
     background-color: white;
     border-width: 40px;
-    left: 50px;
+    left: 220px;
 
 }
