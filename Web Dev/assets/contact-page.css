@@ -41,15 +41,7 @@ background-repeat: no-repeat;
 background-image: radial-gradient( circle at top left, rgb(114, 0, 0) ,rgb(140, 140, 0), rgb(0, 128, 0));
 }
 
-#support-form {
-    
-    position:absolute;
-    display: flex;
-    margin: 0 auto;
-   
-font-size:  30px;
-    top: 1400px;
-}
+
 
 #contact-details  {
     position:absolute;
@@ -63,8 +55,8 @@ font-size:  30px;
 #contact-header {
 font-size: 70px;
 position:absolute;
-
-left: 700px;
+display: flex;
+left: 70px;
 bottom: -100px;
 
 color: black;
@@ -141,6 +133,6 @@ min-width: 1200px;
     border: 1px solid white;
     background-color: white;
     border-width: 40px;
-    left: 20px;
+    left: 200px;
 
 }
