@@ -141,7 +141,7 @@ min-width: 1200px;
     border: 1px solid white;
     background-color: white;
     border-width: 40px;
-    left: -15px;
+    left: -5px;
 
 }
 
@@ -235,9 +235,9 @@ justify-center: center;
         gap: 5px;
         position: relative;
         top: 900px;
-      justify-center: center;
+      justify-center: left;
       margin: 0 auto;
-        text-align: center; /* Centers the text nicely on mobile */
+        text-align: left; /* Centers the text nicely on mobile */
 
     }
     
@@ -266,7 +266,7 @@ justify-center: center;
     }
     
     .disclosure {
-        font-size: 14px;
+        font-size: 13px;
         color: #666;
         margin-top: 10px;
         white-space: wrap;
